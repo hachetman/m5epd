@@ -1,0 +1,9 @@
+# Follow C++ Core Guidelines Naming and layout rules, otherwise use defaults
+AccessModifierOffset: -4
+BreakBeforeBraces: Stroustrup
+IndentWidth: 4
+Language: Cpp
+PointerAlignment: Left
+SpaceAfterTemplateKeyword: false
+Standard: Cpp11 # C++ 17 not supported yet
+UseTab: Never
