@@ -3,7 +3,9 @@
 
 #include "M5EPD_Canvas.h"
 #include "basic_view.h"
+#include "sensor_view.h"
 #include "special_view.h"
+#include "start_view.h"
 #include "status_bar.h"
 #include <list>
 

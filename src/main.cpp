@@ -16,7 +16,7 @@ void setup()
     rtc_time_t RTCtime;
     rtc_date_t RTCDate;
     view_controller controller;
-    M5.begin(true, true, true, true, false);
+    M5.begin(true, false, true, true, false);
     M5.EPD.SetRotation(default_rotation);
     M5.TP.SetRotation(default_rotation);
     M5.EPD.Clear(true);
@@ -51,7 +51,7 @@ void setup()
     }
 
     WiFi.disconnect(true, false);
-    special_view view;
+    sensor_view view;
     controller.add_view(&view);
     controller.run();
 }
